@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ILBible 1.0</title>
+	<!-- Css structure -->
+	<!-- ============Jquery mobile========= -->
+	<link rel="stylesheet" href="assets/jquerymobile/jquery.mobile-1.4.2.min.css">
+	<link rel="stylesheet" href="assets/jquerymobile/jquery.mobile.icons-1.4.2.min.css">
+	<link rel="stylesheet" href="assets/jquerymobile/jquery.mobile.inline-png-1.4.2.min.css">
+	<link rel="stylesheet" href="assets/jquerymobile/jquery.mobile.inline-svg-1.4.2.min.css">
+	<link rel="stylesheet" href="assets/jquerymobile/jquery.mobile.structure-1.4.2.min.css">
+	<link rel="stylesheet" href="assets/jquerymobile/jquery.mobile.theme-1.4.2.min.css">
+	<!-- ==============Bootstrap=========== -->
+	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
+	<!-- ==============Fontawesome=========== -->
+	<link rel="stylesheet" href="assets/fontawesome/css/font-awesome.css">
+
+	<!-- Js structure -->
+	<!-- ============Jquery&Jquery mobile========= -->
+	<script src="assets/jquery/jquery-11.js"></script>
+	<script src="assets/jquerymobile/jquery.mobile-1.4.2.min.js"></script>
+	<!-- ==============Bootstrap=========== -->
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<section data-role="page" id="home" data-theme="a">
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<h1>ILBible - Home</h1>
+		</div><!-- /header -->
+
+		<div data-role="content">
+			<div class="center"><img src="assets/img/logo.png" alt="Logo"></div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, et sed consectetur est ipsam. Repellat, placeat, nam, quos porro nulla quia explicabo repudiandae sed optio accusantium beatae velit dolores fugiat.</p>
+			<p>Harum, ea, ab tempora facilis voluptate perferendis quaerat repellat quo aperiam architecto earum quas eveniet vitae quidem optio dolore modi! Similique, minus, dignissimos itaque obcaecati incidunt repellendus quis ducimus harum.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, cumque fuga delectus similique et saepe expedita doloribus amet officia incidunt perspiciatis numquam nulla ratione ipsum quod dolorum optio non tenetur.</p>
+		</div><!-- /content -->
+
+		<div data-role="footer" data-position="fixed">
+		  	<div data-demo-html="true">
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#home" data-transition="slide" data-icon="home" class="ui-btn-active">Home</a></li>
+						<li><a href="#search" data-transition="slide" data-icon="search">Search</a></li>
+					</ul>
+				</div><!-- /navbar -->
+			</div><!--/demo-html -->	
+		</div>
+		<!-- /footer -->
+	</section>
+	<!-- /page Home-->
+
+	<section data-role="page" id="search" data-theme="a">
+		<div data-role="header" data-position="fixed" data-theme="b">
+			<h1>ILBible - Search</h1>
+		</div><!-- /header -->
+
+		<div data-role="content">
+			<div data-demo-html="true">
+				<ul data-role="listview" data-filter="true" data-filter-placeholder="Rechercher les livres" data-inset="true">
+					<li><a href="#">Genèse</a></li>
+					<li><a href="#">Exode</a></li>
+					<li><a href="#">Lévitique</a></li>
+					<li><a href="#">Nombres</a></li>
+					<li><a href="#">Deuteuronome</a></li>
+					<li><a href="#">Josué</a></li>
+					<li><a href="#">Juges</a></li>
+					<li><a href="#">Ruth</a></li>
+					<li><a href="#">1 Samuel</a></li>
+					<li><a href="#">2 Samuel</a></li>
+					<li><a href="#">1 Rois</a></li>
+					<li><a href="#">2 Rois</a></li>
+					<li><a href="#">1 Chroniques</a></li>
+					<li><a href="#">2 Chroniques</a></li>
+					<li><a href="#">Néhemie</a></li>
+					<li><a href="#">Esdras</a></li>
+					<li><a href="#">Job</a></li>
+					<li><a href="#">Psaumes</a></li>
+					<li><a href="#">Proverbes</a></li>
+					<li><a href="#">Cantiques des cantiques</a></li>
+				</ul>
+			</div><!--/demo-html -->
+		</div><!-- /content -->
+
+		<div data-role="footer" data-position="fixed" data-theme="b">
+		  	<div data-demo-html="true">
+				<div data-role="navbar">
+					<ul>
+						<li>
+							<a href="#home" data-transition="slide" data-icon="home" class="ui-btn-active">Home</a>
+						</li>
+						<!-- <li>
+							<a href="#transition" data-icon="search">Search</a>
+						</li> -->
+					</ul>
+				</div><!-- /navbar -->
+			</div><!--/demo-html -->	
+		</div>
+		<!-- /footer -->
+	</section>
+	<!-- /page Search-->
+
+</body>
+</html>
