@@ -260,12 +260,28 @@
 	"buffers":
 	[
 		{
-			"contents": "<!doctype html>\n<html lang=\"fr\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title>ILBible 1.0</title>\n</head>\n<body>\n	\n</body>\n</html>",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 124,
+				"buffer_size": 5322,
 				"line_ending": "Windows",
 				"name": "<!doctype html>"
+			}
+		},
+		{
+			"file": "assets/myjs/myscript.js",
+			"settings":
+			{
+				"buffer_size": 12432,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/wamp/www/ilbible/index.php",
+			"settings":
+			{
+				"buffer_size": 243,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -306,6 +322,32 @@
 	},
 	"file_history":
 	[
+		"/D/tutos/DOCS/frameworks/angular.js/angular.js-master/README.md",
+		"/D/tutos/DOCS/frameworks/angular.js/angular.js-master/docs/content/guide/index.ngdoc",
+		"/D/wamp/www/urbanbeautycm/composer.json",
+		"/D/wamp/www/ilbible/index.php",
+		"/D/GITRep/my_projects/ILBible/.gitattributes",
+		"/D/wamp/www/dorothy/composer.json",
+		"/D/wamp/www/totem-makeup/composer.json",
+		"/D/wamp/www/urbanbeautycm/bower.json",
+		"/D/GITRep/my_projects/ILBible/livres.sql",
+		"/D/GITRep/my_projects/ILBible/nt.json",
+		"/D/GITRep/my_projects/ILBible/at.json",
+		"/D/GITRep/my_projects/ILBible/livres.txt",
+		"/D/GITRep/my_projects/ILBible/livres.json",
+		"/D/GITRep/my_projects/ILBible/assets/jquery-mobile/jquery.mobile-1.4.2.min.js",
+		"/D/GITRep/my_projects/ILBible/assets/jquery-mobile/jquery.mobile.theme-1.4.2.css",
+		"/D/GITRep/my_projects/ILBible/assets/jquery-mobile/jquery.mobile.structure-1.4.2.css",
+		"/D/GITRep/my_projects/ILBible/assets/jquery-mobile/jquery.mobile.inline-svg-1.4.2.css",
+		"/D/GITRep/my_projects/ILBible/assets/jquery-mobile/jquery.mobile.inline-png-1.4.2.css",
+		"/D/GITRep/my_projects/ILBible/assets/jquery-mobile/jquery.mobile.icons-1.4.2.css",
+		"/D/GITRep/my_projects/ILBible/assets/jquery-mobile/jquery.mobile.external-png-1.4.2.css",
+		"/D/GITRep/my_projects/ILBible/assets/jquery-mobile/jquery.mobile-1.4.2.min.css",
+		"/D/GITRep/my_projects/ILBible/assets/jquery-mobile/jquery.mobile-1.4.2.css",
+		"/C/Users/SEMPAI/AppData/Local/Temp/Rar$DI10.968/jquery.mobile.external-png-1.4.2.min.css",
+		"/C/Users/SEMPAI/AppData/Local/Temp/Rar$DI08.908/jquery.mobile-1.4.2.js",
+		"/D/GITRep/my_projects/ILBible/.gitignore",
+		"/C/Users/SEMPAI/AppData/Local/Temp/Rar$DI04.462/jquery.mobile.structure-1.4.2.css",
 		"/C/Users/SEMPAI/Desktop/TestApp/manifest",
 		"/C/Users/SEMPAI/Desktop/TestApp/tiapp.xml",
 		"/C/Users/SEMPAI/Desktop/TestApp/LICENSE.txt",
@@ -407,37 +449,11 @@
 		"/D/UwAmp/www/searchengine/application/modules/welcome/views/welcome.php~RFcfbf3d.TMP",
 		"/D/UwAmp/www/searchengine/application/modules/welcome/views/welcome.php~RF64fc6f7.TMP",
 		"/D/UwAmp/www/searchengine/welcomehtml.html",
-		"/D/UwAmp/www/searchengine/application/modules/welcome/views/welcomehtml.html",
-		"/D/UwAmp/www/searchengine/application/modules/welcome/models/mdl_welcome.php",
-		"/D/UwAmp/www/searchengine/index.php",
-		"/D/UwAmp/www/searchengine/.bowerrc",
-		"/D/GITRep/my_projects/hmvc_xajax_ci/composer.json",
-		"/D/GITRep/my_projects/hmvc_xajax_ci/README.md",
-		"/D/GITRep/my_projects/hmvc_xajax_ci/.gitignore",
-		"/D/GITRep/my_projects/TheLibrary/.gitignore",
-		"/D/GITRep/my_projects/TheLibrary/.gitattributes",
-		"/D/GITRep/my_projects/hmvc_xajax_ci/src/codeigniter/hmvc_xajax_ci.php",
-		"/D/GITRep/my_projects/hmvc_xajax_ci/src/composer.json",
-		"/D/GITRep/my_projects/hmvc_xajax_ci/.htaccess",
-		"/D/UwAmp/www/thelibrarytest/vendor/autoload.php",
-		"/D/UwAmp/www/thelibrarytest/vendor/composer/autoload_real.php",
-		"/D/UwAmp/www/thelibrarytest/vendor/ellislab/codeigniter/composer.json",
-		"/D/UwAmp/www/thelibrarytest/composer.json",
-		"/D/GITRep/ssh_folders/sempai_ssh/id_rsa.pub",
-		"/C/wamp/bin/php/php5.4.16/php.ini",
-		"/C/Users/SEMPAI/AppData/Local/Temp/scp40347/public_html/office/index.php",
-		"/C/Users/SEMPAI/AppData/Local/Temp/scp32908/public_html/applications/frontend/modules/pricing/views/pricingpage.php",
-		"/C/wamp/www/thelibrary/assets/frontoffice/font-awesome/4.0.3/css/font-awesome.css",
-		"/C/wamp/www/thelibrary/applications/frontoffice/config/routes.php",
-		"/C/Users/SEMPAI/AppData/Local/Temp/scp23042/public_html/applications/frontend/config/config.php",
-		"/C/Users/SEMPAI/AppData/Local/Temp/scp23409/public_html/applications/frontend/config/database.php",
-		"/C/wamp/www/thelibrary/underconstruction/index.php",
-		"/C/wamp/www/thelibrary/private/index.php",
-		"/C/wamp/www/thelibrary/backoffice/index.php"
+		"/D/UwAmp/www/searchengine/application/modules/welcome/views/welcomehtml.html"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -451,6 +467,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"|",
+			"pro",
+			"jo",
+			"Jug",
+			"Deute",
+			"levit",
+			",",
+			"</a></li>",
+			"<li><a href=\"#\">",
+			"fonts",
 			"js/",
 			"images/",
 			"icon/",
@@ -559,6 +585,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"',",
+			"|",
+			",",
+			"",
 			"<?php echo base_url(); ?>assets/js/",
 			"<?php echo base_url(); ?>assets/images/",
 			"<?php echo base_url(); ?>assets/icon/",
@@ -608,29 +638,87 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 124,
+						"buffer_size": 5322,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								63,
-								63
+								4510,
+								4510
 							]
 						],
 						"settings":
 						{
 							"auto_name": "<!doctype html>",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": false
+						},
+						"translation.x": 62.0,
+						"translation.y": 960.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/myjs/myscript.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12432,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12402,
+								11140
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/wamp/www/ilbible/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 243,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								122,
+								122
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -709,7 +797,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 227.0,
+	"side_bar_width": 191.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

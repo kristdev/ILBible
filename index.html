@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="fr">
+<html lang="fr" ng-app="MobApp">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,26 +23,29 @@
 	<script src="assets/jquerymobile/jquery.mobile-1.4.2.min.js"></script>
 	<!-- ==============Bootstrap=========== -->
 	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+	<!-- =============Angulars=========== -->
+	<script src="assets/angularjs/angular1.2.16.min.js"></script>
 </head>
 <body>
 	<section data-role="page" id="home" data-theme="a">
 		<div data-role="header" data-position="fixed" data-theme="b">
-			<h1>ILBible - Home</h1>
+			<h1>ILBible - Home</h1>	
 		</div><!-- /header -->
 
 		<div data-role="content">
-			<div class="center"><img src="assets/img/logo.png" alt="Logo"></div>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, et sed consectetur est ipsam. Repellat, placeat, nam, quos porro nulla quia explicabo repudiandae sed optio accusantium beatae velit dolores fugiat.</p>
-			<p>Harum, ea, ab tempora facilis voluptate perferendis quaerat repellat quo aperiam architecto earum quas eveniet vitae quidem optio dolore modi! Similique, minus, dignissimos itaque obcaecati incidunt repellendus quis ducimus harum.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, cumque fuga delectus similique et saepe expedita doloribus amet officia incidunt perspiciatis numquam nulla ratione ipsum quod dolorum optio non tenetur.</p>
+			<div style="text-align:center;">
+				<img src="assets/img/logo.png" alt="Logo">
+			</div>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, nobis recusandae mollitia sunt magnam aspernatur eum! Tempora, eligendi, nesciunt praesentium cum dolorum doloremque sit tempore laboriosam delectus veniam officia sequi! Deleniti, maxime, voluptatem, adipisci nisi hic itaque repellendus optio voluptate eos iusto eveniet illo impedit! Optio, praesentium, voluptatem, amet adipisci quasi mollitia reiciendis facilis ipsum officia dolorum voluptatum nobis ad iste maiores illo aut tenetur quis ullam assumenda rerum! Magnam qui expedita dolor eum accusantium quibusdam ex. Alias, magnam, deleniti earum quasi voluptate illo numquam magni impedit velit tempore. Cumque doloremque quos quod minima labore consequuntur nemo quae culpa qui.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nostrum, vel repellendus nam aut ipsam eum mollitia labore quos consequatur natus eius molestiae temporibus necessitatibus iusto ea voluptate voluptates accusamus hic quibusdam sint nulla corporis et asperiores odit ducimus excepturi cupiditate praesentium nisi error doloremque quod debitis nobis dignissimos dolor vero laudantium doloribus ratione quis architecto officia eveniet? Quos, sapiente, maiores, architecto nihil aut doloremque fuga adipisci qui molestias veniam numquam praesentium blanditiis voluptatum enim asperiores nemo esse itaque totam iste rem. Odio, voluptates, repellendus fugiat laboriosam natus at assumenda facilis eveniet laudantium maxime eius qui fuga ex velit dolore cum saepe incidunt repudiandae quam optio. Rem, sequi, magnam, amet dolore consequatur eum suscipit placeat repudiandae commodi inventore ab minus accusamus officiis dolorem illum expedita.</p>
+			
 		</div><!-- /content -->
 
 		<div data-role="footer" data-position="fixed">
 		  	<div data-demo-html="true">
 				<div data-role="navbar">
 					<ul>
-						<li><a href="#home" data-transition="slide" data-icon="home" class="ui-btn-active">Home</a></li>
-						<li><a href="#search" data-transition="slide" data-icon="search">Search</a></li>
+						<li><a href="#search" data-theme="b" data-transition="slide" data-icon="search">Search</a></li>
 					</ul>
 				</div><!-- /navbar -->
 			</div><!--/demo-html -->	
@@ -52,47 +55,37 @@
 	<!-- /page Home-->
 
 	<section data-role="page" id="search" data-theme="a">
-		<div data-role="header" data-position="fixed" data-theme="b">
-			<h1>ILBible - Search</h1>
+		<div data-role="header" data-position="fixed" data-theme="b" data-add-back-btn="true">
+			<h1>ILBible - Search</h1>	
 		</div><!-- /header -->
 
 		<div data-role="content">
 			<div data-demo-html="true">
-				<ul data-role="listview" data-filter="true" data-filter-placeholder="Rechercher les livres" data-inset="true">
-					<li><a href="#">Genèse</a></li>
-					<li><a href="#">Exode</a></li>
-					<li><a href="#">Lévitique</a></li>
-					<li><a href="#">Nombres</a></li>
-					<li><a href="#">Deuteuronome</a></li>
-					<li><a href="#">Josué</a></li>
-					<li><a href="#">Juges</a></li>
-					<li><a href="#">Ruth</a></li>
-					<li><a href="#">1 Samuel</a></li>
-					<li><a href="#">2 Samuel</a></li>
-					<li><a href="#">1 Rois</a></li>
-					<li><a href="#">2 Rois</a></li>
-					<li><a href="#">1 Chroniques</a></li>
-					<li><a href="#">2 Chroniques</a></li>
-					<li><a href="#">Néhemie</a></li>
-					<li><a href="#">Esdras</a></li>
-					<li><a href="#">Job</a></li>
-					<li><a href="#">Psaumes</a></li>
-					<li><a href="#">Proverbes</a></li>
-					<li><a href="#">Cantiques des cantiques</a></li>
-				</ul>
+				<div data-role="collapsible-set" data-theme="" data-content-theme="" ng-controller="bibleCtrl">
+					<div data-role="collapsible" data-collapsed="false" ng-repeat="alliance in bible">
+						<h6>{{alliance.testament}}</h6>
+						<ul data-role="listview" data-inset="true" data-filter="true" data-filter-theme="" data-divider-theme="d">
+							<li ng-repeat="book in alliance.livres" data-role="collapsible">
+								<h6>{{book.libelle}}</h6>
+								<ul data-role="listview" data-inset="true">
+									<li ng-repeat="chapter in book.chapitres">
+										<a href="{{chapter.fichier}}" data-rel="popup">Chapitre {{chapter.chap}}</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
 			</div><!--/demo-html -->
-		</div><!-- /content -->
+		</div>
 
 		<div data-role="footer" data-position="fixed" data-theme="b">
 		  	<div data-demo-html="true">
 				<div data-role="navbar">
 					<ul>
 						<li>
-							<a href="#home" data-transition="slide" data-icon="home" class="ui-btn-active">Home</a>
+							<a href="#home" data-transition="slide" data-icon="home">Home</a>
 						</li>
-						<!-- <li>
-							<a href="#transition" data-icon="search">Search</a>
-						</li> -->
 					</ul>
 				</div><!-- /navbar -->
 			</div><!--/demo-html -->	
@@ -100,6 +93,8 @@
 		<!-- /footer -->
 	</section>
 	<!-- /page Search-->
-
+	
+	<!-- ================= Javascript ================ -->
+	<script src="assets/myjs/myscript.js"></script>
 </body>
 </html>
