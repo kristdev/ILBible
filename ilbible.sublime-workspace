@@ -263,7 +263,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5322,
+				"buffer_size": 5384,
 				"line_ending": "Windows",
 				"name": "<!doctype html>"
 			}
@@ -272,7 +272,7 @@
 			"file": "assets/myjs/myscript.js",
 			"settings":
 			{
-				"buffer_size": 12432,
+				"buffer_size": 35093,
 				"line_ending": "Windows"
 			}
 		},
@@ -280,7 +280,7 @@
 			"file": "/D/wamp/www/ilbible/index.php",
 			"settings":
 			{
-				"buffer_size": 243,
+				"buffer_size": 252,
 				"line_ending": "Windows"
 			}
 		}
@@ -322,6 +322,9 @@
 	},
 	"file_history":
 	[
+		"/F/00003.vcf",
+		"/F/00002.vcf",
+		"/F/00001.vcf",
 		"/D/tutos/DOCS/frameworks/angular.js/angular.js-master/README.md",
 		"/D/tutos/DOCS/frameworks/angular.js/angular.js-master/docs/content/guide/index.ngdoc",
 		"/D/wamp/www/urbanbeautycm/composer.json",
@@ -446,10 +449,7 @@
 		"/D/UwAmp/www/searchengine/assets/angular-paginate-anything/tpl/ici.html",
 		"/D/UwAmp/www/searchengine/assets/angular-paginate-anything/README.md",
 		"/D/UwAmp/www/searchengine/application/modules/welcome/controllers/welcome.php",
-		"/D/UwAmp/www/searchengine/application/modules/welcome/views/welcome.php~RFcfbf3d.TMP",
-		"/D/UwAmp/www/searchengine/application/modules/welcome/views/welcome.php~RF64fc6f7.TMP",
-		"/D/UwAmp/www/searchengine/welcomehtml.html",
-		"/D/UwAmp/www/searchengine/application/modules/welcome/views/welcomehtml.html"
+		"/D/UwAmp/www/searchengine/application/modules/welcome/views/welcome.php~RFcfbf3d.TMP"
 	],
 	"find":
 	{
@@ -467,6 +467,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"END:VCARD",
 			"|",
 			"pro",
 			"jo",
@@ -585,6 +586,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"END:VCARD \\n",
+			"END:VCARD",
+			"END:VCARD /n",
 			"',",
 			"|",
 			",",
@@ -638,7 +642,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -647,15 +651,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5322,
+						"buffer_size": 5384,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4510,
-								4510
+								0,
+								0
 							]
 						],
 						"settings":
@@ -677,15 +681,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12432,
+						"buffer_size": 35093,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12402,
-								11140
+								25077,
+								25077
 							]
 						],
 						"settings":
@@ -694,7 +698,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1700.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -705,7 +709,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 243,
+						"buffer_size": 252,
 						"regions":
 						{
 						},
