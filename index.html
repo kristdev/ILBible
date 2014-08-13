@@ -56,7 +56,7 @@
 	</section>
 	<!-- /page Home-->
 
-	<section data-role="page" id="search" data-theme="a">
+	<section data-role="page" id="search">
 		<div data-role="header" data-position="fixed" data-theme="b" data-add-back-btn="true">
 			<h1>ILBible - Search</h1>	
 		</div><!-- /header -->
@@ -71,9 +71,12 @@
 								<h6>{{book.libelle}}</h6>
 								<ul data-role="listview" data-inset="true">
 									<li ng-repeat="chapter in book.chapitres">
-										<a href="{{chapter.fichier}}" data-rel="popup">Chapitre {{chapter.chap}}</a>
+										<a href="{{chapter.fichier}}" data-ajax="false" data-rel="popup">Chapitre {{chapter.chap}}</a>
 									</li>
 								</ul>
+								<!-- <div data-inset="true" ng-repeat="chapter in book.chapitres">
+									<a href="./{{chapter.fichier}}" data-ajax="false" data-rel="popup">Chapitre {{chapter.chap}}</a>
+								</div> -->
 							</li>
 						</ul>
 					</div>
